@@ -1,0 +1,123 @@
+body {
+    background-color: whitesmoke;    
+}
+
+.header-login {
+    background-color: #F5F5F5;
+    width: auto;
+    height: auto;
+    margin: 0 0 2em 0;
+    padding: 0.5em 1em;
+    text-align: center;
+    border: thin solid #CCC;
+    box-shadow: 5px 5px 10px #818181;    
+}
+
+.custom-ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;                
+}
+
+.custom-li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.participanteBox {
+    border: thin solid #CCC;
+    box-shadow: 5px 5px 20px #cbcbcb; 
+    padding: 2em;
+    border-radius: 10px
+}
+
+#fotoPessoal {
+    margin: 1em 2em 0 0;
+}
+
+#fotoPessoal > img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #444;
+    width: 240px;
+    height: 320px;
+}
+
+#fotoPessoal img:hover {    
+    opacity: 0.8;
+}
+
+.fotoPesquisa {
+    height:auto; 
+    width:auto; 
+    max-width:160px; 
+    max-height:160px;
+}
+
+#btnExcluir {
+    margin: 0;
+    float: left;
+    clear: both;
+}
+
+dd > p {
+    margin: 0;
+    max-width: 23em;
+    text-align: justify;
+}
+
+.miniaturas {
+    width: 235px;
+    margin: 0 auto;
+    padding: 0.5em;
+    margin: 10px auto;
+}
+
+.login-form {
+    max-width: 35em;
+    min-width: 30em;
+    min-height: 380px;
+    max-height: 45em;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: thin solid #CCC;    
+    box-shadow: 5px 5px 20px #cbcbcb; 
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px auto 20px auto;
+}
+
+a > figure > img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+.miniaturas > ul >li {
+    margin:0;
+}
+
+.cadastro-form {
+    max-width: 55em;
+    min-width: 30em;
+    min-height: 380px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: thin solid #CCC;    
+    box-shadow: 5px 5px 20px #cbcbcb; 
+    padding: 30px;
+    text-align: center;
+}
+
+.descricao {
+    width: 100%;
+    max-width: 100%;
+    max-height: 70px;
+}
+
+.input-login {
+    height: 42px !important;
+}
